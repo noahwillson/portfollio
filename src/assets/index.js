@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nestjs from "./tech/nestjs.svg";
+import express from "./tech/express.png";
+import prisma from "./tech/prisma.svg";
+import nextjs from "./tech/nextjs.svg";
+import postgresql from "./tech/postgresql.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  nestjs,
+  express,
+  prisma,
+  postgresql,
+  nextjs,
 };
