@@ -86,10 +86,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Next JS",
-    icon: nextjs,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -100,22 +96,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "Express",
-    icon: express,
-  },
-  {
-    name: "Nest JS",
-    icon: nestjs,
-  },
-  {
-    name: "Postgresql",
-    icon: postgresql,
-  },
-  {
-    name: "Prisma ORM",
-    icon: prisma,
   },
   {
     name: "MongoDB",
