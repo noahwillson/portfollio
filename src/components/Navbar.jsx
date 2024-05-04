@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { styles } from "../style";
+import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Mohamed &nbsp;
-            <span className="sm:block hidden"> Sameh</span>
+            Mohamed Sameh &nbsp;
+            <span className="sm:block hidden"> | Frontend Developer</span>
           </p>
         </Link>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <Link to={`#${nav.id}`}>{nav.title}</Link>
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
