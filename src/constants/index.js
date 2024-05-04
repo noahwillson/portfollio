@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -24,7 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
-  freelancer,
+  nestjs,
+  express,
+  nextjs,
+  prisma,
+  postgresql,
 } from "../assets";
 
 export const navLinks = [
@@ -56,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "UI/UX Designer",
+    title: "UI / UX Designer",
     icon: creator,
   },
 ];
@@ -83,6 +86,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -93,6 +100,22 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "Postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "Prisma ORM",
+    icon: prisma,
   },
   {
     name: "MongoDB",
@@ -118,24 +141,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelance Full stack Developer",
-    company_name: "Auto Parts Retail Store",
-    icon: freelancer,
-    iconBg: "#383E56",
-    date: "March 2024 - April 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Full stack Developer",
     company_name: "Anytime Software",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
+    date: "Feb 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -174,81 +184,49 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Dream Restaurant",
+    name: "Car Rent",
     description:
-      "Dream is a full-stack MERN (MongoDB, Express.js, React, Node.js) web application designed for online food ordering and reservation management for a restaurant.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
-        color: "blue-text-gradient",
-      },
-      {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-      {
-        name: "framer motion",
-        color: "pink-text-gradient",
-      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/0xOmarAdel/dream",
+    source_code_link: "https://github.com/",
   },
   {
-    name: "Zen Anime",
+    name: "Job IT",
     description:
-      "Zen Anime Web - A streamlined web platform for anime and manga enthusiasts. built with Next.js and integrated with the Shikimori API. Features include personalized watch lists",
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "framer motion",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/noahwillson/ZenAnime",
+    source_code_link: "https://github.com/",
   },
   {
-    name: "Promptopia",
+    name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -257,19 +235,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "next-auth",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],

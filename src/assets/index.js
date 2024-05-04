@@ -20,17 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import express from "./tech/express.svg";
-import mysql from "./tech/mysql.svg";
-import postgresql from "./tech/postgresql.svg";
 import nestjs from "./tech/nestjs.svg";
+import express from "./tech/express.png";
 import prisma from "./tech/prisma.svg";
+import nextjs from "./tech/nextjs.svg";
+import postgresql from "./tech/postgresql.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import freelancer from "./company/freelancer.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,10 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
-  freelancer,
-  express,
-  mysql,
-  postgresql,
   nestjs,
+  express,
   prisma,
+  postgresql,
+  nextjs,
 };
